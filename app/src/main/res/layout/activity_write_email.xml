@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UserInfo.ResetPass.WriteEmailActivity"
+    android:id="@+id/ll">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primary">
+
+        <ImageButton
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_west_24"
+            android:background="#00000000"
+            >
+
+        </ImageButton>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:text="비밀번호 재설정"
+            android:textColor="#ffffff">
+
+        </TextView>
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <ProgressBar
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:progressDrawable="@drawable/progressbar"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:progress="30"
+        />
+
+    <ImageView
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:src="@drawable/rotate_banner_tail"
+        android:layout_marginLeft="115dp"
+        />
+
+
+    <TextView
+        android:id="@+id/tx_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="비밀번호를 잊으셨나요?"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:textSize="25sp"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="비밀번호를 재설정하기 위해 인증 코드를 이메일로 보냅니다."
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        />
+
+    <FrameLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+
+        >
+        <EditText
+            android:id="@+id/et_email"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:hint="이메일 주소 입력해주세요."
+            android:gravity="center"
+            android:background="@drawable/et_rounded"
+            />
+
+        <ImageButton
+            android:id="@+id/btn_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/ic_baseline_cancel_24"
+            android:background="#00000000"
+
+            />
+
+    </FrameLayout>
+
+
+    <TextView
+        android:id="@+id/tx_warning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#F40A05"
+        android:text="올바른 이메일 주소를 입력하세요."
+        android:layout_marginLeft="30dp"
+        android:visibility="gone"
+        />
+
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="다음"
+        android:backgroundTint="@color/primary"
+        android:layout_marginTop="10dp"
+
+        />
+
+</LinearLayout>

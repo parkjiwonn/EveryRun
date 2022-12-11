@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UserInfo.ResetPass.ResetPassActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primary">
+
+        <ImageButton
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_west_24"
+            android:background="#00000000"
+            >
+
+        </ImageButton>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:text="비밀번호 재설정"
+            android:textColor="#ffffff">
+
+        </TextView>
+    </androidx.appcompat.widget.Toolbar>
+
+    <ProgressBar
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:progressDrawable="@drawable/progressbar"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:progress="100"
+        />
+
+    <ImageView
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:src="@drawable/rotate_banner_tail"
+        android:layout_marginLeft="395dp"
+        />
+
+    <TextView
+        android:id="@+id/tx_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="비밀번호 재설정"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:textSize="25sp"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="비밀번호는 최소 6자 이상(최대 20자)의 문자, 숫자, 기호(예:@,!,%)가 포함되어야 합니다. "
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="비밀번호"
+            android:textColor="@color/black"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="20dp"
+            />
+
+        <ImageView
+            android:id="@+id/img_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_check_24"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:visibility="gone"
+            />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        >
+        <EditText
+            android:id="@+id/et_pass"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:hint="비밀번호 입력해주세요"
+            android:inputType="textPassword"
+            android:gravity="center"
+            android:background="@drawable/et_rounded"
+            />
+
+        <ImageButton
+            android:id="@+id/btn_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="290dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/ic_baseline_cancel_24"
+            android:background="#00000000"
+            android:visibility="gone"
+            />
+
+        <ToggleButton
+            android:id="@+id/btn_view"
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:layout_marginLeft="320dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/password_toggle"
+            android:checked="false"
+            android:text=""
+            android:textOff=""
+            android:textOn=""
+            android:visibility="gone"
+            />
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tx_warning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#F40A05"
+        android:text="비밀번호 설정 방법을 확인해주세요."
+        android:layout_marginLeft="30dp"
+        android:visibility="gone"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="비밀번호 확인"
+            android:textColor="@color/black"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="20dp"
+            />
+
+        <ImageView
+            android:id="@+id/img_recheck"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_check_24"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:visibility="gone"
+            />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+
+        >
+        <EditText
+            android:id="@+id/et_repass"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:hint="비밀번호 확인 입력해주세요"
+            android:inputType="textPassword"
+            android:gravity="center"
+            android:background="@drawable/et_rounded"
+            />
+
+        <ImageButton
+            android:id="@+id/btn_recancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="290dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/ic_baseline_cancel_24"
+            android:background="#00000000"
+            android:visibility="gone"
+            />
+
+        <ToggleButton
+            android:id="@+id/btn_review"
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:layout_marginLeft="320dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/password_toggle"
+            android:checked="false"
+            android:text=""
+            android:textOff=""
+            android:textOn=""
+            android:visibility="gone"
+            />
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tx_rewarning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#F40A05"
+        android:text="비밀번호가 맞지 않습니다."
+        android:layout_marginLeft="30dp"
+        android:visibility="gone"
+        />
+
+
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="다음"
+        android:backgroundTint="#AAB6CC"
+        android:layout_marginTop="10dp"
+        android:clickable="false"
+        />
+
+
+</LinearLayout>

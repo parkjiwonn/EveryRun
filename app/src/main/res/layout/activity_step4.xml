@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserInfo.ResisterStep.Step4Activity"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primary">
+
+        <ImageButton
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_west_24"
+            android:background="#00000000"
+            >
+
+        </ImageButton>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:text="회원가입"
+            android:textColor="#ffffff">
+
+        </TextView>
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ProgressBar
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:progressDrawable="@drawable/progressbar"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:progress="100"
+        />
+
+    <ImageView
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:src="@drawable/rotate_banner_tail"
+        android:layout_marginLeft="395dp"
+        />
+
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        >
+
+        <TextView
+            android:id="@+id/tx_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EveryRun 닉네임 설정"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:layout_marginLeft="60dp"
+            />
+
+        <ToggleButton
+            android:id="@+id/img_question"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="3dp"
+            android:layout_gravity="right"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/qestion_toggle"
+            android:checked="false"
+            android:text=""
+            android:textOff=""
+            android:textOn=""
+            />
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="EveryRun에서 사용할 닉네임을 선택하세요. \n닉네임은 언제든지 변경 가능합니다."
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:textSize="15sp"
+            android:textAlignment="center"
+            />
+
+        <EditText
+            android:id="@+id/et_id"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:hint="닉네임을 입력해주세요."
+            android:gravity="center"
+            android:background="@drawable/et_rounded"
+            android:layout_marginTop="50dp"
+            />
+
+        <ImageButton
+            android:id="@+id/imgcheck"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="110dp"
+            android:layout_marginLeft="300dp"
+            android:src="@drawable/ic_baseline_check_24"
+            android:background="#00000000"
+            android:visibility="gone"
+            />
+
+
+        <TextView
+            android:id="@+id/txtBanner"
+            android:layout_width="182dp"
+            android:layout_height="87dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="34dp"
+            android:background="@drawable/bg_banner"
+            android:gravity="center"
+            android:text="한글,영문,숫자 가능\n밑줄 및 마침표만 사용가능\n최소 2자(최대10자)"
+            android:textColor="#ffffff"
+            android:textSize="15dp"
+            android:visibility="gone"/>
+
+        <ImageView
+                android:id="@+id/txtBannerTail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rotate_banner_tail"
+                android:layout_marginBottom="35dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="100dp"
+                android:layout_gravity="right"
+                android:layout_marginRight="40dp"
+                android:visibility="gone"
+                />
+
+
+
+    </FrameLayout>
+
+
+
+<!--    <FrameLayout-->
+<!--        android:layout_width="350dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:layout_marginTop="20dp"-->
+
+<!--        >-->
+<!--&lt;!&ndash;        <EditText&ndash;&gt;-->
+<!--&lt;!&ndash;            android:id="@+id/et_id"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_width="350dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_height="40dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_gravity="center"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:hint="닉네임을 입력해주세요."&ndash;&gt;-->
+<!--&lt;!&ndash;            android:gravity="center"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:background="@drawable/et_rounded"&ndash;&gt;-->
+<!--&lt;!&ndash;            />&ndash;&gt;-->
+
+<!--&lt;!&ndash;        <ImageButton&ndash;&gt;-->
+<!--&lt;!&ndash;            android:id="@+id/imgcheck"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_width="30dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_height="30dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_marginTop="4dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_marginLeft="300dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:src="@drawable/ic_baseline_check_24"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:background="#00000000"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:visibility="gone"&ndash;&gt;-->
+<!--&lt;!&ndash;            />&ndash;&gt;-->
+
+
+
+<!--    </FrameLayout>-->
+
+    <TextView
+        android:id="@+id/tx_warning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#F40A05"
+        android:text="이 ID는 이미 다른 사람이 사용하고 있습니다."
+        android:layout_marginLeft="30dp"
+        android:visibility="gone"
+        />
+
+
+
+        <Button
+            android:id="@+id/btn_next"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="다음"
+            android:backgroundTint="#AAB6CC"
+            android:layout_marginTop="10dp"
+            android:clickable="false"
+            />
+
+
+
+
+
+</LinearLayout>

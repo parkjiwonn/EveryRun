@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <external-path
+        name="sdcard"
+        path="."/>
+
+    <!--name은 임시값, path가 실제 값-->
+
+</paths>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="none">
+
+        <item
+            android:id="@+id/nav_home"
+            android:title="home"
+            android:icon="@drawable/home_icon_silhouette"
+
+            />
+
+        <item
+            android:id="@+id/nav_record"
+            android:title="기록"
+            android:icon="@drawable/free_icon_graph_8648659"
+            />
+
+        <item
+            android:id="@+id/nav_community"
+            android:title="커뮤니티"
+            android:icon="@drawable/free_icon_community_3127995"
+            />
+
+<!--        <item-->
+<!--            android:id="@+id/nav_callenge"-->
+<!--            android:title="챌린지"-->
+<!--            android:icon="@drawable/flag"-->
+<!--            />-->
+
+        <item
+            android:id="@+id/nav_setting"
+            android:title="설정"
+            android:icon="@drawable/ic_baseline_settings_24"
+            />
+
+    </group>
+</menu>

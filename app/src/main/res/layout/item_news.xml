@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/img1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/tx_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/img"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="user1 님이 크루 가입을 신청했습니다."
+        android:textColor="@color/black"
+        android:layout_marginLeft="10dp"
+        />
+
+    <TextView
+        android:id="@+id/tx_crew"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tx_content"
+        app:layout_constraintStart_toEndOf="@id/img"
+        android:layout_marginLeft="10dp"
+        android:text="크루 이름"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/tx_date"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tx_content"
+        app:layout_constraintStart_toEndOf="@id/tx_crew"
+        android:layout_marginLeft="10dp"
+        android:text="12월 1일"
+        android:textColor="@color/black"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

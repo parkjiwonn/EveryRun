@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.everyrun">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- 카메라 및 저장위치를 위치 접근을 위한 권한 설정 -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <!--
+앱을 사용하기 위한 조건
+required 값에 따라 반드시 필요한 속성일 수도, 없어도 일단 실행은 되는 속성일 수도 있음
+    -->
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EveryRun"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".KeyHashActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Community.CrewSetting.ChangeLeaderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Community.CrewSetting.AlarmActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Community.CrewSetting.MemberListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Community.CrewSetting.JoinManageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ImagecropActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Community.CrewSetting.CrewSettingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Community.Crew_CRUD.UpdateCrewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Community.TotalCrewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Community.TotalMyCrewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Community.Crew_CRUD.ReadCrewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Record.RecordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Challenge.ChallengeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Community.Crew_CRUD.CreateCrewActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Community.CommunityActivity"
+            android:exported="false" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.example.EveryRun.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/external" />
+        </provider>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCCV5XbVy7v-TCVRP56IwkBsFtUfXKd5vg" />
+        <meta-data
+            android:name="com.kakao.sdk.AppKey"
+            android:value="e17e1c7018b028a24cb5685dd7e2bea0" />
+
+        <activity
+            android:name=".UserProfile.EditUserInfoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserInfo.ResetPass.FromLoginFindPassActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserProfile.SettingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserProfile.UserProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".UserInfo.ResetPass.ResetPassActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserInfo.ResetPass.WriteCodeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserInfo.ResetPass.WriteEmailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserInfo.ResisterStep.ReloginActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".UserInfo.ResisterStep.Step3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".UserInfo.ResisterStep.Step2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".UserInfo.ResisterStep.Step1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".UserInfo.LoginActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".UserInfo.ResisterStep.Step4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

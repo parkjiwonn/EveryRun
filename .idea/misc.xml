@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/monsp/AppData/Local/Android/Sdk/platforms/android-32/data/res/layout/simple_spinner_item.xml" value="0.17760416666666667" />
+        <entry key="..\:/Users/monsp/StudioProjects/EveryRun/app/src/main/res/drawable/bg_banner.xml" value="0.2455" />
+        <entry key="..\:/Users/monsp/StudioProjects/EveryRun/app/src/main/res/drawable/bg_banner_tail.xml" value="0.2455" />
+        <entry key="..\:/Users/monsp/StudioProjects/EveryRun/app/src/main/res/drawable/btn_circle.xml" value="0.2705" />
+        <entry key="..\:/Users/monsp/StudioProjects/EveryRun/app/src/main/res/drawable/check_toggle.xml" value="0.253" />
+        <entry key="..\:/Users/monsp/StudioProjects/EveryRun/app/src/main/res/drawable/et_black_rounded.xml" value="0.2145" />
+        <entry key="..\:/Users/monsp/StudioProjects/EveryRun/app/src/main/res/drawable/et_red.xml" value="0.22" />
+        <entry key="..\:/Users/monsp/StudioProjects/EveryRun/app/src/main/res/drawable/et_rounded.xml" value="0.2255" />
+        <entry key="..\:/Users/monsp/StudioProjects/EveryRun/app/src/main/res/drawable/ic_baseline_arrow_forward_ios_24.xml" value="0.252" />
+        <entry key="..\:/Users/monsp/StudioProjects/EveryRun/app/src/main/res/drawable/ic_baseline_cancel_24.xml" value="0.258" />
+        <entry key="..\:/Users/monsp/StudioProjects/EveryRun/app/src/main/res/drawable/ic_baseline_check_24.xml" value="0.253" />
+        <entry key="..\:/Users/monsp/StudioProjects/EveryRun/app/src/main/res/drawable/ic_baseline_directions_run_24.xml" value="0.185" />
+        <entry key="..\:/Users/monsp/StudioProjects/EveryRun/app/src/main/res/drawable/ic_baseline_keyboard_arrow_right_24.xml" value="0.2705" />
+        <entry key="..\:/Users/monsp/StudioProjects/EveryRun/app/src/main/res/drawable/ic_baseline_menu_24.xml" value="0.2705" />
+        <entry key="..\:/Users/monsp/StudioProjects/EveryRun/app/src/main/res/drawable/ic_baseline_more_vert_24.xml" value="0.253" />
+        <entry key="..\:/Users/monsp/StudioProjects/EveryRun/app/src/main/res/drawable/ic_baseline_notifications_24.xml" value="0.2865" />
+        <entry key="..\:/Users/monsp/StudioProjects/EveryRun/app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.252" />
+        <entry key="..\:/Users/monsp/StudioProjects/EveryRun/app/src/main/res/drawable/ic_baseline_west_24.xml" value="0.258" />
+        <entry key="..\:/Users/monsp/StudioProjects/EveryRun/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1675" />
+        <entry key="..\:/Users/monsp/StudioProjects/EveryRun/app/src/main/res/drawable/linear_button_rounded.xml" value="0.2175" />
+        <entry key="..\:/Users/monsp/StudioProjects/EveryRun/app/src/main/res/drawable/linear_rounded.xml" value="0.2705" />
+        <entry key="..\:/Users/monsp/StudioProjects/EveryRun/app/src/main/res/drawable/password_toggle.xml" value="0.272" />
+        <entry key="..\:/Users/monsp/StudioProjects/EveryRun/app/src/main/res/drawable/progressbar.xml" value="0.252" />
+        <entry key="..\:/Users/monsp/StudioProjects/EveryRun/app/src/main/res/drawable/qestion_toggle.xml" value="0.2585" />
+        <entry key="..\:/Users/monsp/StudioProjects/EveryRun/app/src/main/res/drawable/rotate_banner_tail.xml" value="0.2" />
+        <entry key="..\:/Users/monsp/StudioProjects/EveryRun/app/src/main/res/drawable/tx_circle.xml" value="0.2705" />
+        <entry key="..\:/Users/monsp/StudioProjects/EveryRun/app/src/main/res/drawable/tx_redcircle.xml" value="0.2" />
+        <entry key="..\:/Users/monsp/StudioProjects/EveryRun/app/src/main/res/drawable/tx_rounded.xml" value="0.2865" />
+        <entry key="..\:/Users/monsp/StudioProjects/EveryRun/app/src/main/res/layout/activity_alarm.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/monsp/StudioProjects/EveryRun/app/src/main/res/layout/activity_change_leader.xml" value="0.264" />
+        <entry key="..\:/Users/monsp/StudioProjects/EveryRun/app/src/main/res/layout/activity_community.xml" value="0.264" />
+        <entry key="..\:/Users/monsp/StudioProjects/EveryRun/app/src/main/res/layout/activity_create_crew.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/monsp/StudioProjects/EveryRun/app/src/main/res/layout/activity_crew_setting.xml" value="0.4" />
+        <entry key="..\:/Users/monsp/StudioProjects/EveryRun/app/src/main/res/layout/activity_edit_user_info.xml" value="0.4" />
+        <entry key="..\:/Users/monsp/StudioProjects/EveryRun/app/src/main/res/layout/activity_find_pass_word.xml" value="0.22760416666666666" />
+        <entry key="..\:/Users/monsp/StudioProjects/EveryRun/app/src/main/res/layout/activity_from_login_find_pass.xml" value="0.3974358974358974" />
+        <entry key="..\:/Users/monsp/StudioProjects/EveryRun/app/src/main/res/layout/activity_image_crop.xml" value="0.21770833333333334" />
+        <entry key="..\:/Users/monsp/StudioProjects/EveryRun/app/src/main/res/layout/activity_imagecrop.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/monsp/StudioProjects/EveryRun/app/src/main/res/layout/activity_join_manage.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/monsp/StudioProjects/EveryRun/app/src/main/res/layout/activity_key_hash.xml" value="0.29791666666666666" />
+        <entry key="..\:/Users/monsp/StudioProjects/EveryRun/app/src/main/res/layout/activity_login.xml" value="0.4" />
+        <entry key="..\:/Users/monsp/StudioProjects/EveryRun/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/monsp/StudioProjects/EveryRun/app/src/main/res/layout/activity_main2.xml" value="0.22708333333333333" />
+        <entry key="..\:/Users/monsp/StudioProjects/EveryRun/app/src/main/res/layout/activity_member_list.xml" value="0.264" />
+        <entry key="..\:/Users/monsp/StudioProjects/EveryRun/app/src/main/res/layout/activity_read_crew.xml" value="0.264" />
+        <entry key="..\:/Users/monsp/StudioProjects/EveryRun/app/src/main/res/layout/activity_relogin.xml" value="0.264" />
+        <entry key="..\:/Users/monsp/StudioProjects/EveryRun/app/src/main/res/layout/activity_reset_pass.xml" value="0.29010416666666666" />
+        <entry key="..\:/Users/monsp/StudioProjects/EveryRun/app/src/main/res/layout/activity_resister.xml" value="0.240625" />
+        <entry key="..\:/Users/monsp/StudioProjects/EveryRun/app/src/main/res/layout/activity_setting.xml" value="0.4" />
+        <entry key="..\:/Users/monsp/StudioProjects/EveryRun/app/src/main/res/layout/activity_splash.xml" value="0.4244791666666667" />
+        <entry key="..\:/Users/monsp/StudioProjects/EveryRun/app/src/main/res/layout/activity_step1.xml" value="0.4" />
+        <entry key="..\:/Users/monsp/StudioProjects/EveryRun/app/src/main/res/layout/activity_step2.xml" value="0.4" />
+        <entry key="..\:/Users/monsp/StudioProjects/EveryRun/app/src/main/res/layout/activity_step3.xml" value="0.4" />
+        <entry key="..\:/Users/monsp/StudioProjects/EveryRun/app/src/main/res/layout/activity_step4.xml" value="0.264" />
+        <entry key="..\:/Users/monsp/StudioProjects/EveryRun/app/src/main/res/layout/activity_total_crew.xml" value="0.259375" />
+        <entry key="..\:/Users/monsp/StudioProjects/EveryRun/app/src/main/res/layout/activity_total_my_crew.xml" value="0.18229166666666666" />
+        <entry key="..\:/Users/monsp/StudioProjects/EveryRun/app/src/main/res/layout/activity_update.xml" value="0.20260416666666667" />
+        <entry key="..\:/Users/monsp/StudioProjects/EveryRun/app/src/main/res/layout/activity_update_crew.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/monsp/StudioProjects/EveryRun/app/src/main/res/layout/activity_userprofile.xml" value="0.4" />
+        <entry key="..\:/Users/monsp/StudioProjects/EveryRun/app/src/main/res/layout/activity_write_code.xml" value="0.2755208333333333" />
+        <entry key="..\:/Users/monsp/StudioProjects/EveryRun/app/src/main/res/layout/activity_write_email.xml" value="0.29010416666666666" />
+        <entry key="..\:/Users/monsp/StudioProjects/EveryRun/app/src/main/res/layout/bottom_sheet_layout.xml" value="0.29322916666666665" />
+        <entry key="..\:/Users/monsp/StudioProjects/EveryRun/app/src/main/res/layout/crew_bottom_sheet_dialog.xml" value="0.17760416666666667" />
+        <entry key="..\:/Users/monsp/StudioProjects/EveryRun/app/src/main/res/layout/crew_filter_bottomsheet.xml" value="0.24375" />
+        <entry key="..\:/Users/monsp/StudioProjects/EveryRun/app/src/main/res/layout/header_layout.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/monsp/StudioProjects/EveryRun/app/src/main/res/layout/item_joinlist.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/monsp/StudioProjects/EveryRun/app/src/main/res/layout/item_memberlist.xml" value="0.536" />
+        <entry key="..\:/Users/monsp/StudioProjects/EveryRun/app/src/main/res/layout/item_mycrew.xml" value="0.4" />
+        <entry key="..\:/Users/monsp/StudioProjects/EveryRun/app/src/main/res/layout/item_mycrewdetail.xml" value="0.4" />
+        <entry key="..\:/Users/monsp/StudioProjects/EveryRun/app/src/main/res/layout/item_news.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/monsp/StudioProjects/EveryRun/app/src/main/res/layout/item_reader_candidate.xml" value="0.264" />
+        <entry key="..\:/Users/monsp/StudioProjects/EveryRun/app/src/main/res/layout/item_totalcrewdetail.xml" value="0.4" />
+        <entry key="..\:/Users/monsp/StudioProjects/EveryRun/app/src/main/res/layout/toolbar_layout.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/monsp/StudioProjects/EveryRun/app/src/main/res/menu/main_menu.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/monsp/StudioProjects/EveryRun/app/src/main/res/menu/navi_items.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/monsp/StudioProjects/EveryRun/app/src/main/res/menu/setting_menu.xml" value="0.4244791666666667" />
+        <entry key="..\:/Users/monsp/StudioProjects/EveryRun/app/src/main/res/xml/external.xml" value="0.1515625" />
+        <entry key="..\:/Users/monsp/StudioProjects/EveryRun/app/src/main/res/xml/network_security_config.xml" value="0.3619791666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
